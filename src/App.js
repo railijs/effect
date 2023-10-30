@@ -1,8 +1,8 @@
 import ToDo from "./ToDo.js";
 
 function App() {
-  const todo = {
-    usedId: 1,
+  const toDo = {
+    userId: 1,
     id: 1,
     title: "delectus aut autem",
     completed: false,
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <ToDo />
+      <ToDo {...toDo} />
     </>
   );
 }
