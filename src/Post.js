@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 
-function Post() {
+function Post(props) {
   return (
     <>
-      <p>usedId: 1</p>
-      <p>id: 1</p>
-      <p>title: Gang</p>
-      <p>body: teksts</p>
+      <p>userId: {props.userId}</p>
+      <p>id: {props.id}</p>
+      <p>title: {props.title}</p>
+      <p>body: {props.body}</p>
     </>
   );
 }

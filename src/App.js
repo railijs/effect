@@ -24,8 +24,6 @@ function App() {
   return (
     <>
       {loading ? <p>loading..</p> : <ToDo {...toDo} />}
-      <Comment />
-      <Post />
       <PostList />
     </>
   );
